@@ -3,19 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Загрузка изображения</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Большой сайт</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Айдана</h1>
-	
-        <img src="aidana_1.jpg" alt="Описание фотографии" width="350">
-	<h1>ЛОХУДРА</h1>
-	
 
-        <div id="imagePreview" class="image-preview"></div>
-    </div>
+    <!-- Навигационное меню -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О бо мне</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главный раздел с изображением -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Салам Айана и Дарина</h1>
+            <p>Данный сайт создан по приколу</p>
+            <img src="darina.jpg"  width = "300" alt="Картинка на сайте"> 
+            <img src="aidana_1.jpg" width = "300 alt="Картинка на сайте"> 
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="content-section">
+        <h2>О бо мне</h2>
+        <p>Меня вы знаите достаточно хорошо, этого хватит</p>
+	<img src= "i.webp" width = "300"
+    </section>
+
+    
+
+    <!-- Контакты -->
+    <section id="contact" class="content-section">
+        <h2>Контакты</h2>
+        <p>Хуй вам а не мой телефон</p>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>© 2024 У вас нету прав.</p>
+    </footer>
+
+    <!-- Подключение скрипта для плавной прокрутки -->
     <script src="script.js"></script>
+
 </body>
 </html>
